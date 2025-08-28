@@ -152,7 +152,7 @@ def farm_simulator(
     return df_month, df_year
 
 # --- Streamlit App ---
-st.title("House of Supreme Ham Breed Simulator")
+st.title("House of Supreme Ham Simulator")
 
 st.sidebar.header("Farm Parameters")
 # Sliders
