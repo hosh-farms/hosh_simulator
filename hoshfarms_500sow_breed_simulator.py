@@ -64,7 +64,7 @@ def farm_simulator(
 
     batches = []
 
-    for month in range(1, months + 1):
+    for month in range(3, months + 1):
         sow_feed_cost = current_sows * sow_feed_intake * 30 * sow_feed_price
         staff_cost = supervisor_salary + n_workers * worker_salary
         mgmt_fixed = management_fee
